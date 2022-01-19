@@ -1,0 +1,16 @@
+.table{
+    border-collapse: collapse;;
+}
+
+th, td{
+    border: 1px solid #000000;
+    text-transform: capitalize;
+}
+th{
+    font-size: 24px;
+    background-color: indigo;
+    color: lightgreen;
+}
+tbody tr:nth-child(2n+1){
+    background-color: lightslategray;
+}

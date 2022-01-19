@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <section class="pirma hide">
+        <!-- KARTU-->
+        <h1>Bandomes visokius input'us</h1>
+        <form>
+            <div>
+                <!-- Budas 1 -->
+                <label for="name">Vardas</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <!-- Budas 2 -->
+            <input type="text" name="surname" id="surname" placeholder="Pavarde" required> <br>
+            <!-- Kelios kitos dazniausiai naudojamos formos -->
+            <div>
+                <label for="password">Slaptazodis</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div>
+                <label for="email">El pastas</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <!-- RADIO IR CHECK BOX'AI -->
+            <div class="checkBoxai">
+                <p> Keliu variantu pasrinkimas - CHECKBOX</p>
+                <div>
+                    <label for="htmlInput">HTML</label>
+                    <input type="checkbox" name="htmlInput" id="htmlInput" checked>
+                    <!-- CHECKED kad butu vienas pasirinkimas jau parinktas -->
+                </div>
+                <div>
+                    <label for="cssInput">CSS</label>
+                    <input type="checkbox" name="cssInput" id="cssInput">
+                </div>
+                <div>
+                    <label for="jsInput">JS</label>
+                    <input type="checkbox" name="jsInput" id="jsInput">
+                </div>
+            </div>
+            <!-- RADIO BOX turi tureti VIENA NAME kad nebutu zymimi visi vienu metu-->
+            <div class="radio">
+                <p> Keliu variantu pasrinkimas - RADIO</p>
+                <div>
+                    <label for="rytasInput">Rytas</label>
+                    <input type="radio" name="dienosMetas" id="rytasInput" checked>
+                    <!-- CHECKED kad butu vienas pasirinkimas jau parinktas -->
+                </div>
+                <div>
+                    <label for="dienaInput">Diena</label>
+                    <input type="radio" name="dienosMetas" id="dienaInput">
+                </div>
+                <div>
+                    <label for="vakarasInput">Vakaras</label>
+                    <input type="radio" name="dienosMetas" id="vakarasInput">
+                </div>
+            </div>
+            <!-- DATA -->
+            <div>
+                <label for="dateInput">Data</label>
+                <input type="date" name="dateInput" id="dateInput" value="2022-01-18" min="2022-01-16" max="2022-01-25">
+                <!-- VALUE, MIN ir MAX NEBUTINAS --> <br>
+                <input type="datetime-local" name="" id="">
+            </div>
+
+            <div>
+                <label for="fileInput">Failo ikelimas</label>
+                <input type="file" name="fileInput" id="fileInput" accept="image/*,.pdf,.docm,vide/*">
+                <!-- ACCEPT kad priimti tam tikrus failus kaip nuotraukos, video ar ISO formata. -->
+            </div>
+
+            <div>
+                <label for="numberInput">Skaicius - number</label>
+                <input type="number" name="numberInput" id="numberInput" min="1" max="32" step="0.1">
+            </div>
+            <div>
+                <label for="telInput">Telefono numeris</label>
+                <input type="tel" name="telInput" id="telInput" pattern="[868743246]">
+            </div>
+            <div>
+                <label for="nuorodosInput">Nuoroda - url</label>
+                <input type="url" id="nuorodosInput" name="nuorodosInput">
+            </div>
+            <div>
+                <label for="spalvosInput">Spalva - color</label>
+                <input type="color" name="" id="">
+            </div>
+            <div>
+                <label for="rangeInput">Apimtis - range</label>
+                <input type="range" name="rangeInput" id="rangeInput" min="1" max="10" step="0.1">
+            </div>
+            <div>
+                <label for="imageInput"></label>
+                <input type="image" name="imageInput" id="imageInput">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10"><!-- GALIMA PAKEISTI RESIZE PER CSS -->
+                </textarea> <br>
+
+            <div>
+                <label for="selectionAnimals">Pasirinkimas</label> <br>
+                <select name="selectionAnimals" id="selectionAnimals">
+                    <option value="">------</option>
+                    <option value="dog">Suo </option>
+                    <option value="cat">Kate </option>
+                    <option value="hamster">Ziurkenas </option>
+                    <option value="horse">Arklys </option>
+                    <option value="badger">Barsukas</option>
+                </select>
+
+            </div>
+
+            <!-- BUTTONS -->
+            <input type="reset">
+            <!-- Budas 1. rekomenduojama duoti value="pavadinimas"-->
+            <input type="submit" value="Submit">
+            <!-- Budas 2 -->
+            <input type="button" value="Submit">
+            <!-- Budas 3 -->
+            <button>Submit</button>
+        </form>
+    </section>
+    <section class="antra">
+        <div class="bendras">
+            <div class="vidus">
+                <div class="destination">
+                    <h3>Your Destination</h3>
+                    <input type="text" placeholder="  Enter a destination or hotel name">
+                </div>
+                <div class="checkInOut">
+                    <div class="checkIn">
+                        <h3>Check In</h3>
+                        <input type="date">
+                    </div>
+                    <div class="checkIn">
+                        <h3>Check out</h3>
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="pasirinktys">
+                    <div class="numeriai">
+                        <h3>Rooms</h3>
+                        <input name="rooms" type="number" min="1" max="5">
+                    </div>
+                    <div class="numeriai">
+                        <h3>Adults</h3>
+                        <input name="adults" type="number" min="1" max="6">
+                    </div>
+                    <div class="numeriai">
+                        <h3>Children</h3>
+                        <input name="kids" type="number" name="" id="" min="0" max="6">
+                    </div>
+                </div>
+                <input class="knopkeSubmit" type="submit" value="Check availability">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

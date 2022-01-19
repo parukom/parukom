@@ -1,0 +1,61 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+body{
+    margin: 0;
+}
+
+/******PIRMA SEKCIJA******/
+
+/*----BACGROUNDAS----*/
+.topSection{
+    height: 80vh;
+    background-image: url(/img/background/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1.dreamsComeTrue{
+    margin-bottom: 0;
+    color: rgb(255, 254, 254, 0.5);
+    text-align: center;
+    font-size: 100px;
+    padding-top: 80px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.219), 0 0 1em rgb(165, 148, 148), 0 0 0.2em rgb(182, 148, 148);
+}
+.justSay{
+    color: white;
+    text-align: center;font-size: 24px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.438), 0 0 1em rgb(165, 148, 148), 0 0 0.2em rgb(182, 148, 148);
+}
+/*----LOGOTIPAS----*/
+.logotipas{
+    width: 50px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+/*----NAVIGACIJA---*/
+.virsutineJuosta{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.navLinkai{
+    padding-right: 5px;
+    height: 50px;
+    text-transform: capitalize;
+    font-size: 30px;
+    display: inline;
+}
+.navLinkai a{
+    margin-right: 30px;
+}
+.knopke{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.342), 0 0 1em rgb(165, 148, 148), 0 0 0.2em rgb(182, 148, 148);
+    
+}
+.knopke:hover{
+    color: black;
+    text-shadow: 1px 1px 2px rgb(64, 100, 82), 0 0 1em blue, 0 0 0.2em blue;
+}

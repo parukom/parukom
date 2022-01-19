@@ -1,0 +1,100 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+body{
+    height: 500vh;
+}
+.pirma form > div{
+    margin: 10px;
+}
+.checkBoxai p, .radio p{
+    margin-bottom: 4px;
+}
+.checkBoxai div, .radio div{
+    display: inline-block;
+    margin-right: 20px;
+}
+.pirma textarea{
+    resize: none;
+}
+.hide{
+    display: none;
+}
+.bendras {
+    margin-top: 60px;
+    margin-left: 60px;
+    height: 520px;
+    width: 420px;
+    background-color: rgb(230, 218, 224);
+    background-image: url("img/spalvotas.jpg");
+}
+.vidus{
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+    background-color: white;
+}
+.destination h3{
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.vidus .destination input{
+    margin-left: 15px;
+    background-color: rgb(202, 199, 199);
+    height: 35px;
+    width: 90%;
+    border: none;
+    margin-bottom: 25px;
+}
+.checkInOut{
+    display: flex;
+    justify-content: space-around;
+}
+.checkInOut h3{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.checkInOut input{
+    background-color: rgb(202, 199, 199);
+    height: 35px;
+    padding-left: 13px;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    width: 88%;
+}
+.checkIn{
+    justify-content: space-between;
+    display: inline-block;
+    width: 45%;
+}
+.pasirinktys{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.pasirinktys h3{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.pasirinktys input{
+    width: 70%;
+    background-color: rgb(202, 199, 199);
+    height: 35px;
+    border: none;
+    font-weight: bold;
+    margin-left: 15px;
+    color: black;
+    padding-left: 15px;
+}
+.vidus .knopkeSubmit{
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    width: 60%;
+    border-radius: 5px;
+}

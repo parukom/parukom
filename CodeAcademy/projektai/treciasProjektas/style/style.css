@@ -1,0 +1,45 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+.sekcija{
+    padding-top: 30px;
+    background-image: url(../img/backround.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.lentele{
+    margin: 0 auto;
+    width: 600px;
+    height: 480px;
+    background-color: rgb(245, 245, 245);
+}
+.lentele h1{
+    margin-top: 0;
+    padding-top: 60px;
+    text-align: center;
+}
+.selektoriai input, textarea, label{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 4.5%;
+    background-color: transparent;
+}
+.selektoriai input, textarea{
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 1px solid black;
+    border-left: 0px solid transparent;
+}
+.selektoriai{
+    margin-top: 10px;
+}
+.knopke{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 4.5%;
+    width: 140px;
+    height: 30px;
+    border: 0px solid black;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+}

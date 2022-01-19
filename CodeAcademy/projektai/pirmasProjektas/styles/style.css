@@ -1,0 +1,110 @@
+
+body{
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    display: flex;
+}
+
+.navBarMenu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    background-image: url("../img/catBar1000x100.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    border: 3mm ridge rgba(228, 228, 228, 0.6);
+}
+
+.logo, .links{
+    display: inline;
+}
+
+.links {
+    margin-top: 20px;
+    word-spacing: 10px;
+}
+
+.navMenu {
+    background-color: rgb(231, 228, 228);
+    height: 20px;
+    font-size: 38px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    border-radius: 20px;
+}
+
+.navMenu:hover{
+    background-color: transparent;
+    color: red;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+.antraSekcija{
+    margin-top: 100px;
+}
+
+.katinukuDeze > h1 {
+    font-size: 55px;
+    text-align: center;
+}
+.katinukuDeze{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.katinukas1, .katinukas2, .katinukas3{
+    display: inline-block;
+}
+.katinukas1{
+    width: 300px;
+    height: 300px;
+}
+.katinukas3{
+    width: 300px;
+}
+
+.fotoGalerijaH1{
+    color: rgb(245, 245, 245);
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.galerija {
+    background-image: url(img/grass.jpg);
+}
+.fotoGalerija > .kaciuGalerija  img{
+    height: 200px;
+}
+
+.kontaktuLentele{
+    text-align: left;
+    margin-left: 40px;
+}
+
+#hero{
+    display: inline;
+}
+.gingerCat{
+    height: 300px;
+}
+.whiteCat{
+    height: 300px;
+}
+.contact{
+    margin-left: 30px;
+}

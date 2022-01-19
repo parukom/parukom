@@ -1,0 +1,125 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+/*********** CSS NURESETINTAS *********/
+html{
+    scroll-behavior: smooth;
+}
+/********* NAV BAR *********/
+.relative{
+    position: relative;
+}
+.menu{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(18, 49, 189, 0.719);
+
+    position: sticky;
+    top: 0;
+    z-index: 100px;
+}
+nav{
+    padding-top: 12px;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 30px;
+    font-size: 30px;
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 24%;
+    padding: 6px 10px;
+    background-color: rgb(110, 107, 158);
+    color: rgb(0, 0, 0);
+}
+.menu a:hover{
+    background-color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+
+/******** HOME  *******/
+#home{
+    height: 80vh;
+    background-color: grey;
+    background-image: url(../img/gamesBackground.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+#home div{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 250px;
+}
+#home h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 0px 15px white; /* 1 stumia i desine/kaire, 2 i virsu/apacia, 3 blur kokybe ir 4 spalva*/
+    -webkit-text-stroke: 0.3px rgb(255, 255, 255);
+}
+/********* ABOUT *********/
+
+#about{
+    padding-left: 20px;
+    min-height: 50vh;
+    background-color: darkgrey;
+    /* linear-gradient minimum 3 nustatymai*/
+    background-image: linear-gradient(
+        to right , red, rgb(2, 221, 221)
+    );
+}
+
+#about > div:nth-child(1){
+    padding-top: 60px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 250px;
+}
+#about h1{
+    font-size: 40px;
+}
+#about img{
+    height: 200px;
+    width: auto;
+}
+.floatRight{
+    float: right;
+}
+.floatLeft{
+    float: left;
+}
+.clearFix{
+    clear: both;
+}
+.textas{
+    width: 60%;
+}
+
+/******** KONTAKTAI *******/
+
+#contact{
+    min-height: 50vh;
+    background-image: radial-gradient(
+        circle at center, rgb(128, 21, 21), rgb(22, 22, 99)
+    );
+}
+#contact{
+    padding-left: 20px;
+}
+#contact h1 {
+    color: white;
+}
+#contact label{
+    color: white;
+}
+
+/***** FOOTER *****/
+#footer div{
+    padding-top: 20px;
+    color: white;
+}

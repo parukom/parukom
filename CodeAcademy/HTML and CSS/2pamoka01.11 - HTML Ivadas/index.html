@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Ivadas</title>
+</head>
+<body>
+    <section><!-- Blokiniai-->
+    <h1 style="color: yellow; font-family: 'Times New Roman', Times, serif; background-color: grey; border: 1px dotted black; border-radius: 50px; padding-left: 15px;" >Lorem ipsum</h1>
+    <h2 style="color: green;">Lorem ipsum</h2>
+    <h3 style="color: red;">Lorem ipsum</h3>
+    <h4 style="color: grey;">Lorem ipsum</h4>
+    <h5 style="color: salmon;">Lorem ipsum</h5>
+    <h6 style="color: black;">Lorem ipsum</h6>
+    <p style="border: 1px solid black; background-color: lightgray;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas maiores possimus a aperiam culpa animi aut expedita soluta itaque distinctio dignissimos et, illo tenetur quae, quaerat delectus odio odit architecto?</p>
+    <div style="text-decoration: underline;">DIV underline Blokinis elementas</div>
+    <main style="text-transform: capitalize;">lorem capitalize</main>
+    <section style="text-transform: uppercase;">lorem sekcija uppercase</section>
+    <article style="color: violet;">lorem article violet</article>
+    <hr>
+</section>
+<section> <!--Linijiniai ( Irasom targer="_blank" kad butu naujam puslapy)-->
+    <p><a href="#somewhere" target="_blank">Nuoroda </a> ( Irasom targer="_blank" kad butu naujam puslapy)</p>
+    <img src="img/cat.jpeg" alt="Cat_picture" title="katinukas" height="150px">
+    <video controls src="videos/bunnyVideo.mp4" height="300px"></video>
+    <span>lorem span, Linijinis elementas </span>
+    <i>lorem i</i>
+    <em>lorem emphasized</em>
+    <b>lorem bold</b>
+    <strong>lorem strong</strong>
+    <br>
+    <button onclick="">Enter</button>
+    <hr>
+</section>
+    <h1 style="text-align: center;">Apjungiame ka ismokome</h1><!--Apjungiame ka ismokome-->
+    <div> <!--Blokiniu elementu pavyzdziai-->
+        <h3>
+           <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements" targer="_blank" style="text-decoration: none;"> 
+               Blokiniai elementai ( block )
+           </a>
+        </h3>
+        <p>
+            Blokiniai elementai yra tag'ai, kurie uzima visa eilute (bloka) ir neilsileidzia i ja kitu elementu.
+            tag'u pavyzdiziai:<strong> h1-h6, p, section, div, section, main, article, nav, footer, table, dl, ol, ul, form, ..</strong> yra daugiau, bet maziausiai naudojami.
+        </p>
+    </div>
+    <div> <!--order/unorder listai-->
+        <h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements" target="_blank" style="text-decoration: none;">
+                Linijiniai elementai ( inline )</a>
+        </h3>
+        <p> yra tag'ai, kurie uzima tik tiek vietos kiek reikia ju viduje esanciai informacijai.
+                Tag'u pavyzdizia:<strong> a, img, video, span, center, button, audio, em, i, input, label, strong, b...</strong>
+        </p>
+        <ul>         <!--unordered list-->
+            <li>a</li>
+            <li>img</li>
+            <li>video</li>
+            <li>span</li>
+            <li>center</li>
+            <li>buttone</li>
+            <li>audio</li>
+            <li>em</li>
+            <li>i</li>
+            <li>em</li>
+            <li>input</li>
+            <li>label</li>
+            <li>select</li>
+            <li>strong</li>
+            <li>b</li>
+            <li>...</li>
+        </ul> 
+        <ol style="list-style-type: style type;"> <!--order list. gali buti kitoks zymejimo stilius vietoj "style type"-->
+            <li>a</li>
+            <li>img</li>
+            <li>video</li>
+            <li>span</li>
+            <li>center</li>
+            <li>buttone</li>
+            <li>audio</li>
+            <li>em</li>
+            <li>i</li>
+            <li>em</li>
+            <li>input</li>
+            <li>label</li>
+            <li>select</li>
+            <li>strong</li>
+            <li>b</li>
+            <li>...</li>
+        </ol>
+    </div>
+    <hr>
+    <section> <!--forma-->
+        <h1>forma</h1>
+        <p>Input <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank"><b>instrukcijos</b></a></p>
+        <form>
+            <div> <!--VARDAS-->
+                <label for="name" >Vardas</label>
+                <input id="name" type="text" required><!-- required jeigu yra butina ivestis-->
+            </div>
+            <div><!--PAVARDE-->
+                <label for="surname">Pavarde</label>
+                <input id="surname" type="text" required><!-- required jeigu yra butina ivestis-->
+            </div>
+            <div><!--EL-PASTAS-->
+                <label for="email">El pastas</label>
+                <input id="email" type="text" required> <!-- required jeigu yra butina ivestis-->
+            </div>
+            <div><!--SLAPTAZODIS-->
+                <label for="password">Slaptazodis</label>
+                <input type="password" type="text" required><!-- required jeigu yra butina ivestis-->
+            </div>
+            <div><!--LYTIS SU RADIO FORMA KUR GAIL PASIRINKTI TIK VIENA-->
+                <p><b>Pasirinkite Lyti:</b></p>
+                <label for="">Vyras </label>
+                <input type="radio" name="lytis" id="vyras">
+                <label for="">Moters </label>
+                <input type="radio" name="lytis" id="moteris">
+                <label for="">VyrasMoteris </label>
+                <input type="radio" name="lytis" id="vyrasMoteris" checked>
+            </div>
+            <div><!--DATOS PASRINKIMAS-->
+                <p><b>Gimimo data</b></p>
+                <label for="date"></label>
+                <input type="date" required><!-- required jeigu yra butina ivestis-->
+            </div>
+            <div required><!--VAISIAUS PASRINKIMAS SU CHECKBOX-->
+                <p> <b>Pasirink vaisius:</b></p>
+                <label for="">Obuolys </label>
+                <input type="checkbox" name="" id="obuolys">
+                <label for="">Ananasas </label>
+                <input type="checkbox" name="" id="ananasas">
+                <label for="">Kriause </label>
+                <input type="checkbox" name="" id="kriause" >
+            </div>
+            <button>Submit</button> <!--BUTTON-->
+            <input type="submit" value="submit">
+            </form>
+    </section>
+</body>
+</html>

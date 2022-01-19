@@ -1,0 +1,125 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainMenu{
+    margin: 0 auto;
+    width: 800px;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.mainMenu h1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-family: fantasy;
+    word-spacing: 10px;
+}
+.textHolderiai{
+    border: 1px solid white ;
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+.selektoriuKlase{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+.selektoriai{
+    border: 1px solid #ffffff;
+    padding-left: 18px;
+    margin-top: 20px;
+    width: 310px;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: white;
+    height: 40px;
+    cursor: pointer;
+}
+.tarpelis{
+    width: 30px;
+}
+.mainMenu h3{
+    color: rgb(2, 190, 190);
+    font-family: fantasy;
+    padding-left: 77px;
+    padding-top: 20px;
+}
+.moreOptions{
+    display: flex;
+    justify-content: space-around;
+    width: 750px;
+    margin-left: 30px;
+}
+.color{
+    border: 0.3px solid white;
+    width: 100px;
+    height: 235px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 15px;
+}
+.color label, input{
+    color: rgb(192, 190, 190);
+    display: inline-block;
+    justify-content: space-between;
+    padding-top: 3px;
+}
+.color input{
+    clip-path: circle(40%);
+}
+.desine{
+   float: right;
+   margin-right: 15px;
+   cursor: pointer;
+}
+.needNoNeed {
+    padding: 0 5px 0 15px;
+    border: 0.3px solid white;
+    color: rgb(192, 190, 190);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.needNoNeed input{
+    clip-path: circle(40%);
+}
+.doorType{
+    border: 0.3px solid white;
+    color: rgb(192, 190, 190);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 15px;
+}
+.doorType p {
+    padding-right: 15px;
+}
+.doorType input{
+    clip-path: circle(40%);
+}
+.contactBy {
+    display: flex;
+    color: white;
+}
+.radioBy{
+    font-size: bold;
+    margin-left: 77px;
+}
+.kontaktuRadio{
+    margin-top: 40px;
+    margin-left: -55px;
+    color: rgb(1, 212, 212);
+    font-family: fantasy;
+}
+.knopke{
+    margin-top: 30px;
+    margin-left: 40%;
+    background-color: red;
+    width: 150px;
+    height: 55px;
+    border: 1px solid cyan;
+    cursor: pointer;
+}

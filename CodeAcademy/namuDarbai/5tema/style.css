@@ -1,0 +1,95 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+body{
+    background-color: rgb(187, 185, 185);
+}
+section{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    margin: 0 auto;
+    border-radius: 5px;
+}
+header{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: white;
+    width: 1000px;
+    height: 180px;
+}
+header img{
+    height: 60px;
+}
+header h1{
+    line-height: 10px;
+    font-size: 45px;
+}
+a{
+    font-weight: 600;
+    line-height: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px 10px 25px;
+}
+.apieMus{
+    margin-top: 10px;
+    height: 950px;
+    width: 1000px;
+    background-color: white;
+}
+.apieMus h1{
+    padding-top: 40px;
+    text-align: center;
+}
+.apieMus img{
+    padding-left: 25px;
+    width: 950px;
+}
+.aprasymas{
+    padding-left: 25px;
+    width: 950px;
+}
+.produktai{
+    height: 1050px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: white;
+    width: 1000px;
+}
+.produktai h1{
+    padding-top: 40px;
+    text-align: center;
+}
+.produktai h2{
+    text-align: center;
+}
+.produktai h4{
+    margin: 0;
+}
+.produktai p{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    text-transform: capitalize;
+}
+.produktai img{
+    width: 280px;
+}
+.pienoProduktai{
+    margin-top: 20px;
+}
+.kontaktai{
+    background-color: white;
+    width: 1000px;
+}
+.kontaktai img{
+    padding: 25px 25px;
+    max-width: 950px;
+}
+.kontaktai ul{
+    padding-top: 40px;
+}
+footer{
+    padding: 10px 0;
+    text-align: center;
+}

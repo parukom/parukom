@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="mainMenu">
+            <h1>Find The Right Car Now</h1>
+            <div>
+                <input type="text" placeholder="   Your Name" class="textHolderiai">
+            </div>
+            <div>
+                <input type="email" placeholder="   Enter your Email..." class="textHolderiai">
+            </div>
+            <div>
+                <input type="tel" placeholder="   Phone Number" class="textHolderiai">
+            </div>
+            <div class="selektoriuKlase">
+                <div>
+                    <div>
+                        <select class="selektoriai" name="selectBrand" id="selectBrand">
+                            <option value="">Select Brand</option>
+                            <option value="vW">Volkswagen </option>
+                            <option value="audi">Audi </option>
+                            <option value="bmw">BMW </option>
+                            <option value="mb">Mercedes-Benz </option>
+                            <option value="volvo">Volvo</option>
+                            <option value="renault">Renault</option>
+                            <option value="peugeot">Peugeot</option>
+                            <option value="nissan">Nissan</option>
+                            <option value="vaz">VAZ</option>
+                            <option value="hyundai">Hyundai</option>
+                            <option value="honda">Honda</option>
+                            <option value="moskvich">Moskvich</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="selektoriai" name="yearTo" id="yearFrom">
+                            <option value="">Year From...</option>
+                            <option value="2010">2010 </option>
+                            <option value="2011">2011 </option>
+                            <option value="2012">2012 </option>
+                            <option value="2013">2013 </option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="selektoriai" name="selektoriai" id="priceFrom">
+                            <option value="">Price From...</option>
+                            <option value="1000" class="priceDollah">1000 </option>
+                            <option value="2000" class="priceDollah">2000 </option>
+                            <option value="3000" class="priceDollah">3000 </option>
+                            <option value="4000" class="priceDollah">4000 </option>
+                            <option value="5000" class="priceDollah">5000</option>
+                            <option value="6000" class="priceDollah">6000</option>
+                            <option value="7000" class="priceDollah">7000</option>
+                            <option value="8000" class="priceDollah">8000</option>
+                            <option value="9000" class="priceDollah">9000</option>
+                            <option value="10000" class="priceDollah">10.000</option>
+                            <option value="11000" class="priceDollah">11.000</option>
+                            <option value="12000" class="priceDollah">12.000</option>
+                            <option value="13000" class="priceDollah">13.000</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="tarpelis"></div>
+                <div>
+                    <div>
+                        <select class="selektoriai" name="typeOfCar" id="typeOfCar">
+                            <option value="">Type of Car</option>
+                            <option value="dog">Hetchbek </option>
+                            <option value="cat">Universal </option>
+                            <option value="hamster">Coupe </option>
+                            <option value="horse">Picup </option>
+                            <option value="badger">Barsukas</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="selektoriai" name="yearTo" id="yearTo">
+                            <option value="">Year To...</option>
+                            <option value="2010">2010 </option>
+                            <option value="2011">2011 </option>
+                            <option value="2012">2012 </option>
+                            <option value="2013">2013 </option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="selektoriai" name="selektoriai" id="priceTo">
+                            <option value="">Price To...</option>
+                            <option value="1000">1000 </option>
+                            <option value="2000">2000 </option>
+                            <option value="3000">3000 </option>
+                            <option value="4000">4000 </option>
+                            <option value="5000">5000</option>
+                            <option value="6000">6000</option>
+                            <option value="7000">7000</option>
+                            <option value="8000">8000</option>
+                            <option value="9000">9000</option>
+                            <option value="10000">10.000</option>
+                            <option value="11000">11.000</option>
+                            <option value="12000">12.000</option>
+                            <option value="13000">13.000</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <h3>More Options</h3>
+            <div class="moreOptions">
+                <div class="color">
+                    <p>Choose your color:</p>
+                    <label for="checkbox">Red</label>
+                    <input type="checkbox" name="red" id="red" class="desine"> <br>
+                    <label for="checkbox">Blue</label>
+                    <input type="checkbox" name="blue" id="blue" class="desine"> <br>
+                    <label for="checkbox">Black</label>
+                    <input type="checkbox" name="black" id="black" class="desine"> <br>
+                    <label for="checkbox">Yellow</label>
+                    <input type="checkbox" name="yellow" id="yellow" class="desine"><br>
+                    <label for="checkbox">Green</label>
+                    <input type="checkbox" name="green" id="green" class="desine"> <br>
+                    <label for="checkbox">Pink</label>
+                    <input type="checkbox" name="pink" id="pink" class="desine"> <br>
+                    <label for="checkbox">White</label>
+                    <input type="checkbox" name="white" id="white" class="desine"> <br>
+                </div>
+                <div class="needNoNeed">
+                    <p>Need or no Need:</p>
+                    <label for="checkbox">Alloys</label>
+                    <input type="checkbox" name="Alloys" id="Alloys" class="desine"> <br>
+                    <label for="checkbox">DVD</label>
+                    <input type="checkbox" name="DVD" id="DVD" class="desine"> <br>
+                    <label for="checkbox">Leather</label>
+                    <input type="checkbox" name="Leather" id="Leather" class="desine"> <br>
+                    <label for="checkbox">Car Stereo</label>
+                    <input type="checkbox" name="carStereo" id="carStereo" class="desine"><br>
+                    <label for="checkbox">Automatic windows</label>
+                    <input type="checkbox" name="autoWindow" id="autoWindow" class="desine"> <br>
+                    <label for="checkbox">Girl Inside</label>
+                    <input type="checkbox" name="girlInside" id="girlInside" class="desine"> <br>
+                    <label for="checkbox">Ash tray</label>
+                    <input type="checkbox" name="ashTray" id="ashTray" class="desine"> <br>
+                </div>
+                <div class="doorType">
+                    <p>Choose your door<br> type:</p>
+                    <label for="checkbox">1 Door</label>
+                    <input type="checkbox" name="doors" id="doors" class="desine"> <br>
+                    <label for="checkbox">2 Doors</label>
+                    <input type="checkbox" name="doors" id="doors" class="desine"> <br>
+                    <label for="checkbox">3 Doors</label>
+                    <input type="checkbox" name="doors" id="doors" class="desine"> <br>
+                    <label for="checkbox">4 Doors</label>
+                    <input type="checkbox" name="doors" id="doors" class="desine"> <br>
+                    <label for="checkbox">5 Doors</label>
+                    <input type="checkbox" name="doors" id="doors" class="desine"> <br>
+                </div>
+            </div>
+            <div class="contactBy">
+                <div class="kontaktuH3">
+                    <h3>You want us to contact you by:</h3>
+                </div>
+                <div class="kontaktuRadio">
+                    <div class="radioBy">
+                        <label for="byEmail">Email</label>
+                        <input type="radio" name="contactBy" id="byEmail1" class="desine" checked>
+                    </div>
+                    <div class="radioBy">
+                        <label for="byPhone">Phone</label>
+                        <input type="radio" name="contactBy" id="byPhone1" class="desine">
+                    </div>
+                </div>
+            </div>
+            <button class="knopke">Send</button>
+        </div>
+    </section>
+</body>
+
+</html>

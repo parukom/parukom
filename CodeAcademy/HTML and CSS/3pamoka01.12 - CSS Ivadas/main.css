@@ -1,0 +1,169 @@
+.kvadratas{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Linijiniai uzima tik tiek ietos kiek reikia ju viduje esantiems elementams. Sitaip ignuoruodami plocio aukscio nustatymus. Traip issidesto vienas salia kito*/
+.inline{
+    display: inline;
+}
+
+/* Blokiniai uzima visa eilute ir neisileidzia kitu elementu i ta pacia horizontalia eilute. Gali priimti aukscio ir plocio nustatymus. */
+
+.block{
+    display: block;
+}
+
+/* Inline-block uzima tik tiek vietos kiek reikia ju viduje esantiems elementams. Gali priimti aukscio ir plocio nustatymus. issidestyo vienas salia kito horizontaliai. */
+
+.inlineBlokas{
+display: inline-block;
+}
+
+.tekstoDydis{
+    font-size: 2rem;
+    color: white;
+}
+
+#kvadratas{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+#dydis{
+    font-size: 50px;
+    color: green;
+}
+
+h4{
+    font-size: 30px;
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* po klases dedamas zenkliukas ">" kuris nurodo butent kuriame DIV ieskotu p tag'o kuri nori keisti, o nededant zenkliuko ">" gali visuose elementuose su tokiu paciu tagu keisti nustatymus. Jeigu DIV turi viduje DIV, tai nurodom kelia nuo pirmo DIV iki kito DIV esancio elemento. */
+.tagVyduje > p{ 
+    color: green;
+}
+/* Kai to pacio elemento ID ir Class turi skirtingas spalvas, tai ID visada turi prioriteta. */
+#idIrClass{
+    color: red;
+    font-size: 20px;
+}
+.classIrID{
+    color: indigo;
+    background-color: black;
+}
+/* taip mes paslepiam viska kas trugdo ekrane ir einam prie kitos pamokos. */
+
+
+/* --mazasis puslapis 3 sekcija-- */
+body{
+    background-color: rgb(209, 209, 209);
+    margin: 0;
+}
+#menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.navBarMenu{
+    background-image: url("img/catBar1000x100.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    border: 3mm ridge rgba(228, 228, 228, 0.6);
+}
+
+.logo, .links{
+    display: inline;
+}
+
+.links {
+    margin-top: 20px;
+    word-spacing: 10px;
+}
+
+.navMenu {
+    background-color: rgb(231, 228, 228);
+    height: 20px;
+    font-size: 38px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    border-radius: 20px;
+}
+
+.navMenu:hover{
+    background-color: transparent;
+    color: red;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+.katinukuDeze > h1 {
+    font-size: 55px;
+    text-align: center;
+}
+.katinukuDeze{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.katinukas1, .katinukas2, .katinukas3{
+    display: inline-block;
+}
+.katinukas1{
+    width: 300px;
+    height: 300px;
+}
+.katinukas3{
+    width: 300px;
+}
+.kate1, .kate2, .kate3, .kate4, .kate5, .kate6, .kate7, .kate8, .kate9, .kate10, .kate11, .kate12, .kate13{
+    width: 200px;
+}
+
+.fotoGalerijaH1{
+    color: rgb(245, 245, 245);
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.galerija {
+    background-image: url(img/grass.jpg);
+}
+
+.kontaktuLentele{
+    text-align: left;
+    margin-left: 40px;
+}
+
+#hero{
+    display: inline;
+}
+.gingerCat{
+    height: 300px;
+}
+.whiteCat{
+    height: 300px;
+}
+.contact{
+    margin-left: 30px;
+}
