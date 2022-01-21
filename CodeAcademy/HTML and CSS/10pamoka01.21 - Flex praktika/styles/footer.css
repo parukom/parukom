@@ -1,0 +1,9 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+footer{
+    text-align: center;
+    height: 70px;
+    background-color: chocolate;
+    padding-top: 30px;
+    font-size: 14px;
+    color: white;
+}

@@ -1,0 +1,82 @@
+section{
+    height: calc(100vh - 140px);
+}
+.pagrindinisBoxas{
+    background-color: rgb(109, 109, 109);
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+.homepage{
+    text-align: center;
+    height: 70px;
+    background-color: rgb(167, 150, 0);
+}
+.homepage h1{
+    padding-top: 17px;
+    color: white;
+    font-size: bold;
+    font-family: "Gill Sans", sans-serif;
+}
+.linkai{
+    height: 50px;
+    background-color: rgb(187, 187, 187);
+}
+.info{
+    margin-top: 10px;
+}
+.dezutes ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 5.5px;
+}
+.dezutes li{
+    background-color: white;
+    color: rgb(184, 104, 104);
+    text-align: center;
+    list-style-type: none;
+    width: 180px;
+    height: 27px;
+    border: 1px solid black;
+    padding-top: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.info p {
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.info img{
+    padding: 10px;
+    width: 300px
+}
+.dezute{
+    background-color: white;
+    width: 32%;
+}
+button {
+    height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 5%;
+    width: 90%;
+    border-radius: 0;
+    border: 1px solid black;
+}
+.pirma, .antra{
+    margin-top: 57px;
+}
+.footeris{
+    height: 45px;
+    text-align: center;
+    background-color: rgb(167, 150, 0);
+}
+.footeris h3{
+    color: white;
+    padding-top: 12px;
+}
