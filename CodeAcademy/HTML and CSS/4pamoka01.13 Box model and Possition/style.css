@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-color: grey;
+    height: 200vh;
+}
+.modelDezute > img{
+    /* pakeitus paveiksliuko width arba height kita puse nusisstato automatiskai, nebent nori skaiciuot arba istampyt paveiksliuka */
+    width: 400px;
+    background-color: white;
+
+    /* margin - atitraukimas nuo aplinkiniu elementu. */
+    /* margin-top; margin-right; margin-bottom, margin-left */
+    /* eina pagal laikrodzio rodykle, virsus, desine, apacia, kaire */
+    margin: 50px 100px 10px 200px;
+
+    /* pradziai eina senelis storis,  stilius ir spalva */
+    /* border-top; border-right; border-bottom; border-left kad duoti atskirus parametrus sienelems */
+    /* border-width: 10px 5px 10px 20px; */ 
+   /** border: 5px solid palevioletred; **/
+   border-width: 20px 20px 20px 20px;
+   border-style: double dotted solid dashed;
+   border-color: pink yellow red blue;
+
+   /* Padding turi tuos pacius nustatymus ka turi margin. Padding juda nuo pacio elemento iki borderio. Taip pat galima rasyti vienoje eiluteje arba atskirai duodant psues */
+   /* padding-top; padding-right; padding-bottom; padding-left; arba duodant 2 options virsus/apacia ir desine/kaire */
+    padding: /* virsus*/10px /*desine*/20px/*apacia*/ 15px /*kaire*/50px;/* arba duoti viena nustatyma visoms pusems padding: 40px;*/
+}
+.kvadratas{
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 10px;
+}
+.spalvaSuPavadinimu1{
+    background-color: red;
+}
+.spalvaSuPavadinimu2{
+    background-color: blue;
+}
+.spalvaPagalRGB1{
+    background-color: rgb(0, 255, 0);
+}
+.spalvaPagalRGB2{
+    background-color: rgb(255, 0, 220)/* RGB duoda tetalias spalvas */
+}
+.spalvaPagalRGB3{
+    background-color: rgba(1, 1, 1, 0.1);/* RGBA tuoda detalias spalvas ir paskutinis duoda permatomuma nuo 0 iki 1. 0 - visiskai permatomas, 1 - visiskai ne permatomas */
+}
+.spalvaPagalRGB4{
+    background-color: rgba(1, 1, 1, 0.9);
+    color: white;
+}
+/* spalvu pavadinimu yra 140, o per RGBA 255*255*255*100 = 1_658_137_500 spalvu kartu su permatomom */
+
+.spalvaPagalHex1{
+    background-color: #ff0000;
+}
+.spalvaPagalHex2{
+    background-color: #00ffaa;
+}
+.spalvaPagalHex3{
+    background-color: #0000ffc0; /* permatomumas mazas*/
+}
+.spalvaPagalHex4{
+    background-color: #0000ff20; /* permatomumas didelis */
+}
+.spalvaPagalHSL1{
+    background-color: hsl(340, 100%, 50%);/* spalvos nuo 0 iki 357, paskui saturation ir  lightness*/
+}
+.spalvaPagalHSL2{
+    background-color: hsl(340, 100%, 50%, 0.5);
+}
+.spalvos{
+    background-image: url(img/pieva.jpg);
+}

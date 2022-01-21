@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model and position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section><!-- Model Box margin,padding,border-->
+        <div class="modelDezute">
+            <img src="img/goku.jpg" alt="goku">
+            <div class="paddingMargin">
+                <img src="img/marginPaddingBorder.png" alt="marginPaddingBorder">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="spalvos"><!-- Spalvos -->
+        <div class="kvadratas spalvaSuPavadinimu1">1</div>
+        <div class="kvadratas spalvaSuPavadinimu2">2</div>
+        <div class="kvadratas spalvaPagalRGB1">3</div>
+        <div class="kvadratas spalvaPagalRGB2">4</div>
+        <div class="kvadratas spalvaPagalRGB3">5</div>
+        <div class="kvadratas spalvaPagalRGB4">6</div>
+        <div class="kvadratas spalvaPagalHex1">7</div>
+        <div class="kvadratas spalvaPagalHex2">8</div>
+        <div class="kvadratas spalvaPagalHex3">9</div>
+        <div class="kvadratas spalvaPagalHex4">10</div>
+        <div class="kvadratas spalvaPagalHSL1">11</div>
+        <div class="kvadratas spalvaPagalHSL2">12</div>
+    </section>
+    <hr>
+    <section> <!-- Position -->
+        <h1 style="text-align: center; font-size: 45px;">
+            Postions
+        </h1>
+        <div>
+            <h3 style="text-align: center; font-size: 25px;" >
+                Statik
+            </h3>
+            <p>
+                Statine pozicija nesuteikia jokio stiliaus. Dazniau naudojama tam, kad nuimti kazkuria pozicija nuo elemento.
+            </p>
+        </div>
+        <div>
+            <h3 style="text-align: center; font-size: 25px">
+                Relative
+            </h3>
+            <p>
+                Relatyvioji pozicija igalina elementui top, right, bottom, left ir z-index stilius. Top, right, bottom ir left atsumia elementa nuo jo pradines pozicijos. <br> Nurodo ribas kitoms pozicijoms.
+            </p>
+        </div>
+        <div>
+            <h3 style="text-align: center; font-size: 25px">
+                Absolute
+            </h3>
+            <p>
+                Absoliucioji pozicija igalina elementui top, right, bottom, left ir z-index stilius. Top, right, bottom ir left atsumia elementa nuo jo "tevinio | tevinio tevinio | tevinio tevinio tevinio |...|...|...| body"elemento krastu jeigu sis turi relative pozicija.
+            </p>
+        </div>
+        <div>
+            <h3 style="text-align: center; font-size: 25px">
+                Fixuota
+            </h3>
+            <p>
+                Fiksuota pozicija igalina elementui top, right, bottom, left ir z-index stilius. Top, right, bottom ir left atsumia elementa nuo jo "tevinio | tevinio tevinio | tevinio tevinio tevinio |...|...|...| body"elemento krastu jeigu sis turi relative pozicija.<br>Jisai lieka fiksuotas ekrane iki pat galo.
+            </p>
+        </div>
+        <div>
+            <h3 style="text-align: center; font-size: 25px">
+                Sticky
+            </h3>
+            <p>
+                Fiksuota pozicija igalina elementui top, right, bottom, left ir z-index stilius. Top, right, bottom ir left priklijuoja prie jo "tevinio | tevinio tevinio | tevinio tevinio tevinio |...|...|...| body"elemento krastu jeigu sis turi relative pozicijoje iki pat puslapio galo.
+            </p>
+        </div>
+    </section>
+    
+</body>
+</html>
