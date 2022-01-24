@@ -1,0 +1,316 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+.main{
+    margin: 0;
+    position: relative;
+}
+.virsutinis{
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/backgroundCity.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+}
+.bandomasis{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(22, 17, 97, 0.678);
+}
+.bandomasis h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    padding-top: 200px;
+    padding-right: 600px;
+    padding-bottom: 40px;
+    margin-top: 0;
+    margin-left: 150px;
+    font-size: 60px;
+    border-bottom: 3px solid white;
+    transition: 1s;
+}
+.virsutinisP{
+    display: flex;
+    width: 600px;
+    margin-left: 150px;
+}
+.virsutinisP button{
+    width: 400px;
+    height: 55px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.virsutinisP button:hover{
+    background-color: white;
+    color: black;
+    border: none;
+    transition: 0.2s;
+}
+.virsutinisP p{
+    font-size: smaller;
+    color: white;
+}
+.kubikai{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mazas{
+    height: 400px;
+    width: 40%;
+}
+.didelis{
+    height: 400px;
+    width: 60%;
+}
+.mazas1{
+    background-image: url(../img/apelsinai.jpg);
+    background-size: cover;
+}
+.didelis1{
+    background-image: url(../img/lektuvas.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+}
+.didelis2{
+    background-image: url(../img/maria.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+}
+.mazas2{
+    background-image: url(../img/motoruske.jpg);
+    background-size: cover;
+}
+.mazas3{
+    background-image: url(../img/planetariumas.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+}
+.didelis3{
+    background-image: url(../img/svirkstas.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+}
+.vidusMazas1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(63, 6, 6, 0.808);
+    cursor: pointer;
+}
+.vidusMazas1 h2{
+    margin-top: 0;
+    margin-left: 80px;
+    width: 200px;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 1s;
+    border-bottom: 2px solid white;
+
+}
+.vidusMazas1:hover{
+    background-color: transparent;
+    color: black;
+    transition: 0.9s;
+}
+
+.vidusMazas1 p{
+    color: white;
+    margin-left: 80px;
+    font-size: 14px;
+}
+.vidusDidelis1{
+    background-color: rgba(95, 64, 5, 0.856);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.vidusDidelis1 h2{
+    margin-top: 0;
+    margin-left: 80px;
+    width: 200px;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 1s;
+    border-bottom: 2px solid white;
+}
+.vidusDidelis1 p{
+    color: white;
+    margin-left: 80px;
+    font-size: 14px;
+}
+.vidusDidelis1:hover{
+    background-color: transparent;
+    color: black;
+    transition: 0.9s;
+}
+.vidusDidelis2{
+    background-color: rgba(95, 64, 5, 0.836);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.vidusDidelis2 h2{
+    margin-top: 0;
+    margin-left: 80px;
+    width: 200px;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 1s;
+    border-bottom: 2px solid white;
+}
+.vidusDidelis2 p{
+    color: white;
+    margin-left: 80px;
+    font-size: 14px;
+}
+.vidusDidelis2:hover{
+    background-color: transparent;
+    color: black;
+    transition: 0.9s;
+}
+.vidusMazas2{
+    background-color: rgba(95, 64, 5, 0.808);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.vidusMazas2 h2{
+    margin-top: 0;
+    margin-left: 80px;
+    width: 200px;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 1s;
+    border-bottom: 2px solid white;
+}
+.vidusMazas2 p{
+    color: white;
+    margin-left: 80px;
+    font-size: 14px;
+}
+.vidusMazas2:hover{
+    background-color: transparent;
+    color: black;
+    transition: 0.9s;
+}
+.vidusMazas3{
+    background-color: rgba(95, 64, 5, 0.822);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.vidusMazas3 h2{
+    margin-top: 0;
+    margin-left: 80px;
+    width: 200px;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 1s;
+    border-bottom: 2px solid white;
+}
+.vidusMazas3 p{
+    color: white;
+    margin-left: 80px;
+    font-size: 14px;
+}
+.vidusMazas3:hover{
+    background-color: transparent;
+    color: black;
+    transition: 0.9s;
+}
+.vidusDidelis3{
+    background-color: rgba(95, 64, 5, 0.808);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.vidusDidelis3 h2{
+    margin-top: 0;
+    margin-left: 80px;
+    width: 200px;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 1s;
+    border-bottom: 2px solid white;
+}
+.vidusDidelis3 p{
+    color: white;
+    margin-left: 80px;
+    font-size: 14px;
+}
+.vidusDidelis3:hover{
+    background-color: transparent;
+    color: black;
+    transition: 0.9s;
+}
+.massa{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(31, 31, 75);
+}
+.centriukas{
+    width: 1100px;
+    margin: 0 auto;
+}
+.massa h1{
+    margin-top: 60px;
+    padding-bottom: 20px;
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    border-bottom: 2px solid white;
+}
+.massa p{
+    color: white;
+    padding-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.massa button{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(21, 21, 49);
+    display: flex;
+    justify-content: space-evenly;
+}
+.ikoniukai{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    gap: 20px;
+}
+.footer img{
+    width: 50px;
+}
+.footer p{
+    color: rgb(77, 76, 76);
+}
