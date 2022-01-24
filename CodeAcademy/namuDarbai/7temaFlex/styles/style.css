@@ -1,0 +1,63 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+.container-wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+header {
+    background-color: rgb(102, 179, 2);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu img{
+    height: 150px;
+}
+.navi li{
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.navi li a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: rgb(0, 68, 0);
+}
+.apatineSekcija{
+    margin-top: -20px;
+    background-color: white;
+    display: flex;
+}
+.whoWeAre{
+    padding: 15px;
+    width: 350%;
+}
+.whatWeDo{
+    padding: 15px;
+    
+}
+.whatWeDo img{
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+p{
+    text-align: justify;
+}
+.knopke{
+    float: right;
+    background-color: rgb(102, 179, 2);
+    height: 50px;
+    width: 100px;
+    border: 1px solid transparent;
+}
+footer{
+    height: 35px;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(102, 179, 2);
+}
